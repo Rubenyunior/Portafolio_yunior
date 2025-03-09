@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clínica Galope </title>
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70">
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: var(--primary);">
+    <div class="container">
+      <a class="navbar-brand" href="#inicio">Clínica Galope</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#equipo">Equipo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Sección Inicio -->
+  <section id="inicio" class="pt-5 mt-5">
+    <div class="container text-center">
+      <h1 class="display-4 my-4"> Bienvenidos a Nuestra Clínica El Galope🐴</h1>
+      <p class="lead">🐴✨ Cuidamos con pasión, sanamos con amor ✨🐴</p>
+      <img src="https://i.pinimg.com/736x/f5/a4/30/f5a4303852b9d55e40491af935b72c8c.jpg" alt="Banner" class="img-fluid w-100" style="object-fit: cover; height: 400px;">
+      <div class="mt-4">
+        <a href="#contacto" class="btn btn-lg" style="background-color: var(--secondary); color: #fff;">Agendar Cita</a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Sección Servicios -->
+  <section id="servicios" class="py-5" style="background-color: #f8f9fa;">
+    <div class="container">
+      <h2 class="text-center mb-5">Nuestros Servicios</h2>
+      <div class="row g-4">
+        <!-- Card Consulta General -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm hover-card">
+            <img src="https://i.pinimg.com/236x/1d/c3/ec/1dc3ec573a1e08f837424b0ad7547fda.jpg" class="card-img-top" alt="Consulta General" style="object-fit: cover; height: 200px;">
+            <div class="card-body">
+              <h5 class="card-title"><i class="fas fa-stethoscope me-2" style="color: var(--accent);"></i>Consulta General</h5>
+              <p class="card-text">Atención médica completa para tu Caballo.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Card Cirugías -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm hover-card">
+            <img src="https://i.pinimg.com/236x/44/0c/24/440c24e644f39ef7fda67fa1f7e42bad.jpg" class="card-img-top" alt="Cirugías" style="object-fit: cover; height: 200px;">
+            <div class="card-body">
+              <h5 class="card-title"><i class="fas fa-user-md me-2" style="color: var(--accent);"></i>Cirugías</h5>
+              <p class="card-text">Procedimientos quirúrgicos con tecnología avanzada.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Card Peluquería -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm hover-card">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMVFhUXGBoWFxcYGBcaFxoaHRcXGhgfGhgaHSggGBolHRcXIjEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGi0lHSUtLS0tLS0tLS0tLS0tLS0tLS0tLSstLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0rLS0tLf/AABEIALcBEwMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAEAAIDBQYBB//EAD8QAAEDAgQDBQYEBAUEAwAAAAEAAhEDIQQSMUEFUWEGInGBkRMyobHB8ELR4fEjUmJyBxSCkrIWQ1OiM0TC/8QAGgEAAwEBAQEAAAAAAAAAAAAAAQIDBAAFBv/EACsRAAICAgEEAQIFBQAAAAAAAAABAhEDITEEEiJBE3GhBUJRYYEUkcHw8f/aAAwDAQACEQMRAD8Arex1MhgealQPmTnkiZ0LpHyI2Te0vG8/s2A61efJw/f9lpePYhuGZLGkDQutfqeq8q45xIVHhwjNcTuZP5T6rLHzlZrfjE2XC+1LnVX0xmcDbu7RP0WxwGIcw55e4HVmYaeGVee8Aw7abWkd13OdfpKv3cY0aSHHZpJzf+p+i5rehk7WzVVeE4auM7CZ5OAJ8rj4KLivCc1PIAL+6et9PyVDhsXBlpyHcag/G61PDONAw2pH5HmJ0/dCUZLgjKMZGMr9lnMkmc3UfrdAN4I9xu6y3vFQabi2HEO0I1dO+n3IVGaT3OhoLjMDWT5c1llPOuDPKCRSN4BbVC4js6/8JXoeC7LVBDq2Yf0MbmI8TYehWm4UMI3utHeGz2970KvjxdVLb0Jo8hwXAnUxJV1hOz9asP4bS7mRp6my9H4vxCmCxj2gseYMiR0t9dU3iPE/ZstAAFmjl0GkeBWj+kyOrl9gXEwX/RGLfb2cdS5o+qvOG/4f5Gg1q4HMME/+x/JQ/wDWFTPkpiTNxY7b8h1ROLxlSqIqPLR/K0kfHX0Un08YOnb/AN/Y0Y4KSsnxHZ3AUyP4rweWdpn1CE4j2bwroyPrE7wWQPVqiZlbcATz1PqbrhxBQ7V6Rb44IFrdl2gj2dU9c5HlBaPFFYbs86CM7Hcu/wDmEx1cphrHRd8auxfij6E7szXOgb5VG/Urh7OVmCTTd4jvf8ZT2Yp7dCj8LxQgzJnoSEJYIy4bROWJorMFg4eJJtczZB46pnra2lbBnEM/vta4dbH1QWI4FQfLmywnmbeR/ZdHDOC5s6OkzO1sNmM5kwYKd1fs7Lty/wDyOzcwfsKoxdB1Luh2bb91lxxyvJUmBxaR2lUyw1qvsDjrZXXCzmEpX6q0FLL3nnKNhufAfVetpIVK+CXinCR77SADzVfnDDlZdxtO99uikr45z7N0H3qh8FTAl+sSG667lImV7KVsLc8NGUeZVRjJN+SnxNdcp0rS70TiArHFQ4itrKKrkDRUHEyfJccBcSxgAKxuOoue5aapUBN0+lhQTMLk6OooKXCbBdWp/wAukj3HdpWds6+IY5zXAhjrwSD/ALZuPBYxjTIJBMififyXqfb9ucsdls4mOW26yVCnTLG5m3aIB0JEn9vJRxS8S2SNs7hMI94DWjLzOvwVrgMHTZoIeb5pu7rPNV1TiBIysGVu/Ucp+ildVtHK46c/JOhGW7sW5pg3PmJ6H4qfAcUE625bgrPtxeZwDp2iD92VziH0mADLEmS7efomFPQOGcbpvDaVQPymO8IMLVcP4Nh6T/aMc5xcO6SRlb1EAXXhgc4EOp1SIMwSRvsZ+q3vY7tG5zxh6xIz+4SZv0J1CMYq9iytrR6F/nHNMEDxufmVVYh7a82AqtOosSFI3FZmTMwY+MT8CqbE1yyrmGoN/A3WuMEZHJnO0FU+zpzrng+hWR4z2tc8nCUjM2LrHLsSNxy6pf4gdphmyUTJFhrGciXE/wBoPqVUdmMAwPNQC0yJufMnVTy5e3SLYsXdtmp4bhW0GczqTqSeZO6mZjM4lhkHf8+Sr8bjwBH2VT4XHnMY0Kwt7NyTrRq2snVOKqKXEjCLwdQm6DYKDiAhqlS1gpS1JlPmpymWjAiaD5/BSNlOKQQixpIcyoUZTxJGiEaxStACopknjRY08W7mPMBJ1YHVrCeZa38kDUcNiD11+SgNWNCj3g+NFk/EBo7oaDzDQD5QFS4p73n7lPqkn6KQtDGzufkg2FRoGqiAKbdXanpufp5p9YgCBYC0KHCumXnfTw2/PzSeZVYqkRyStkbGXkp1asuZrQhq9XknJkVR6Ax4kI0uQ1YoDJFE3D3lWNNgjqn1G2lDsJQCOc4pLl+SS44F4bivaB1J5JzXbJJhw5chBS7T8LNKoH5ctOo0PZygiD8RPgQrnsb2NxVUiq9po0NXOdLXuaLxTbE35kAXkStn2tw7KmZhYC1oAAkiALWjkB8EXCm5AjK6ieKU3Bpg3B+CMwob4jkVHxXB5HnJLmbW7w6Eb+Km4Pg3PNtN9krkqsftalTJnYUWgRN9dkZiMG547o5kTztHlr6rvEAGPDf6HH0H7+isOGVe409EO/QezZnqYcDEBpGrdvI7K/4JWa59MZspDhLbWN9NtUsZwv2xGX3p0PzTm8IfSrUyHNcAASSLg9Drpa6pC5CZEom0wXEntqObc08xLeTZufjPqpDGIrhlORLRmJ/CBOY+Q08lT1MTkZG5+KP4CXMw76rvfqnI3owGXHzMDyWueRQVezFGDk7MN20fTfjRSpMa2m0QBFzJu4ndxiSSZKPGIDGwI0VLUObGVX7A5QnY2vt5LzpyPSxw0cxeNzE3XcFV9VXVztPK3VaPgXCS4BxkDf8ARST9sq16RNw2g5508TyWkoUg0QNVylTA7rQIhTaJXKxlGhOfCjqOlcdcpApRzrGKRovAv9/BROq/eq5n+z+qYV0T1KgGkHmoXP6yPvRM9tNhonNG644WeeaeW2XGhSgc4RsFHcPRtmdYDZB4+oXEN/mPo3U/l5ouvW22VdTJJc/yb4b/AB+SeG2JN0giQh6j05osoapWlGRkXtfqgwTBUw/RMDbLmBDWymuapQFFVKVjg1YoYOv0UuIKgpaogJwSkuwEkoT2Pjjn5SKbSS4d5w2AmLa6klZnH4lzwC9uV2567iNlosbXyd57w3eNXHwCz+PxftDpG3WOv3ut0I6MblszXGuHjKXsphxt3dLCMwFtd45quwFNjSSzQ6jkeR5FX9aqG91wj+U7eCpeI0e9mbZ3MRccjzHQ/DVRydOmvEvj6lp+WwDtFhySx7RJBuOY3HmCUHwrEH2cDa0wbbEHkUS7HlwLXtII3Fx57t8/Urj80HKwEnXb91m+OS9Gn5IN2mWPAsSfaC8g92dBfVWFFj3OIjvAmRy8VV8DM1GMixzZni4DgLNAj4nn0WxwOHlzo1JM+KLz/AmmtmfM4zaozIe4POYEnRaPG1ctMNGjGfGJKno8GLG1KlSLAkfRVOPqS158lGM3JtspCNIw1Nv8V7uZlQYgSSrFrfZ1pgOEEwd7KqAL6gbaXOi+l0k5GuCLXgnDg92YgBoNvvdbKm0aDRVfDqQaAALBWbHxZTKEzXck15Tc0b3Ubnxf4InD82ia49VGHWzO8lC47n78oRQGSl8prnk+ATSpGi3RMKcYOegUgdOv1UFV0myWa8DRAYJDr7gKUvgIUPgaqCtX12XAbHYqufdGrjE8lMHQA0aBA4R0uJ5D4n9B8US56tBEMjsc58qBz/nquuPwUTyIViLQwXKiLikHXXaogLmBHA5NqpgKjxDoCUYExBQ3tL3RVRshVld0FMKWrdN0kFQx4yiVxKE93rYXMZeQfIfPVVeL4TTkkSPNXhuhazgCN/DzW2MmYmkYjH8McAZJcDqDof7TsVSuw2XUkjZ2/g8bnad/HXd8Re8zEdJaFnawGbK4Brj+E6P8Jt5K6VkrMrjvZi73BpGjpg/D5KCm2o6C0nLzOp8rW8VY8T4GJke6dv5T81P2c4AaLHvdFQ5szW7ZdYE7xPwQcd8DKX7gNDE1KT2ZW7CTEySbg2jkb/ReocJqD2TXvZ7InbmOYGoB5FUZwtJhz0qTXE5S0mbCNYJjXouVG1Xn+I63JeT1uSEJU1s1Ymq7myx4txpjmOptvNp81kqz5pvVhRwwGeFXln8Nw6qGGfdZphLuRQ41sta7qWn5/VV2BbmrttoCRz5eeqv3Yeab2+Y8lX8Hw/fc7lA+J/Jdk5NMODSBwgRyC77TL4oSrXhDitmKXgdbLA1puU8O5lCioPEp0/d0EEmdc62CaXb/AEUQM9E1zp0TAJmum+ye6r6KImBCTnQEQUdfVieaYHkDaVG8odzxzRAwipX5oR9aSh61b7+aiNSAekopCtlzw0dyf5iT5afRFsYosE2GgcgPkijoqogwStoha7oEImrqq+oZJ+4TpiipuMqXEXUdNifUNrJmKNaICFxD0U4oTFDT5pUFg1Q7qvxiNJuUJiTcckwoIywhJE+w6JIDHu2Ixf8AMDHL8/yQ9fiDcocQQOcWF7TBsiPYZoM3jQ/RD4nDFvVpsQtqowbK+tXjvTLTuNPO6HxVBlZkOEjnoR1B2KbUBout7p9EG6uDUIpEteL5HaOHNv5K6JAVGu5tU4at3jEsf/M3k4bOtruimgtIptkh2/IT81TcaqvOIoVLAk5HTaIPPaxOvJajAvgjMJ5x8Y++aKkdRzANLQGk+7YeB/WETUUmPohrhUbobHz0KcHLwfxaKcoy+q/t/wBLw4op6VB+d0+6UIynY/3FaP2vMKkxDco8yfis/Sytv+DXgldlU4w5C4WhlFSP5h8p+qkxL7pNqD2R5z9ArzNkQKrU1UQebbK1p8JZkbUfVgEZoGqqsfWbJyiBew5TZTeyiCKdX4IknYffiqyg+Pp96BHU6hudEUjmwmoREBNEAa/fomtMpjnSdUTghjd+aie+6WaBE/kow+JROOVHSUJVfv5ommb6eKBxLp/TVEQZH3+ia3UCNSPmuTt1UtD3mf3D80wj4NFQ1U9Q2UOHcpKrk5IExJQgp3uiqx33UMHVOhWR1DFgm076rlTWy4HkfmmALdRPhOc5M1XIDBK9tB1TSZCIrMlDM6bInD6TBAn5pJrQkloJ7QbEnlp6IKviaw0EfFcp4nUHXmhcRgquofPgt8UeeyGoSRleJB9R4FVeO4QXgEOu0yyqz32HqNxzCMqYV/4pKbTqlhkSFS6EKDi9SoAwvpguaSXObo62UOA5d4zuDE8za4HGCxdawkSPgrMMFYFppm/4miIPP4/FVFPg9Skcrr8nbO6+OlijZxdU6kHLq1wt47fG3onMdYW2CBpvJbG7Pkf1gq2wjQ9rXbOAI8xK8f8AFlaj/JXGrIXBUnFX7dFpa1MDRZHtDWYx5zvawc3OA9BqfILD0aqTRqxeLZS4urcpYPEgte07wfofmhamMwzv/ssEb5XEetlZcM4Vh3Q5+K1uMrRlLSNcziNZ5eq2vHOXCNDz44K5MBw5D3NaH2nT3VFxLCPpPLTzmRGk2+C17uzFAsEYiDtmZY/6gYVbjey2IaQWNZXaJIDCXONj0+qV4JJHR6vG3yZ1hMaz5x80Z7Tui0bWR+A7L4qqZNB9MD/y91vlmhx9FZ8Q7Lsw9B1WriW5xGVgb3SZ0zON99gk7WW7k+Clo30P7JUwblDioNBKeauUIDIl9p1THO5ef7poqen36LgK4LHOMBV1Z/T0+SNxDxl2Va+py/RMhWca6T8ETRf/ABKQ6k+UFVtKr3r87QjMC7NXH9LJ9THyBT+xJcGrwosocRWvARGHHd6IN47yJP0NASNl2UxydMVgxN1HUSxFkyTCZMVie5NYZSmdYXCQmFY+ohW2MqdwtKFeTOi44l9mEkwO6FJdRx6kwonDVkHRbYnqpGOutvswlkC06pewZyCgYZ0TvZlFnE8gaKg7S44MDac94nOR0uPr8FdFoaJMrO4jHe0c8Brcv4ibl0aAcvFGIGAYStrF5B+S09EiB4BVGA4GBUcHVYDSA0BuZxlocJ0A5eWytRSbTjMC5thmDo+EWPRed1+CeftUPVjx8SXiD3MpPexhqOa0lrG6udFgPEwFheK9j3tivWb7aqWtNVzi0gPMmGMn3RZogGzR1W1xtZ4IFKHgWcxzjTqHq13un1CMo0muY12aq0tPea/KXXi0uBt4W84IXp+j+NXJ7KrJs864Z2YxNf3afs2aZ3jK0eA1d5DzC0Tuwf8AEaG4gCnk7xc2X5hrlboQdYm3VX+Mx2UxPrrHVUmM4qTAad7H7+7LQsXbdchnkWSu7hGk4Twmhhm/w2l7h+N0EiTMAaNEgdbCSUVieIOc05BJ5LCU+OFxiYgkSDbVXeF4hO/msTyN8m6OKMeDOcR7QYl+KOHENDQHVHHrENa2eRuTz3V1SNAwXNDnAe86C7y5eUBVHbDhhFQY1nvBgp1R/MwGWu8W6Hp/bfON44AL6b3jxsPPVa8Kh237PO615O+m9HpVXs5Te0PcwAm5DYZAjuyWiXHQmbbRaTku1HBjSaagZ3BzEn15K4o9sQ0T7xM2jqbQgO0vawuY9uSABcclDL2vnk2YO5UlwYinxBofkFjE6T8CbI2nVmOfPVZQYvPVLgI/daHB1J8Pv4qKVI1d1sJxH3oqusI016/comvjmbHMeTZPx0UFOg6oZJyjkD8z+UIpCykivFUh2hc6dPvQK54Vhy2S67nEExp0A6DRSYbBtboAjG0tCmeid2XtF3cCqqtTXZWeG9z1QlVgghdFgaI6bv3Taj+XqmUxqOv7KKsmARVU0j0TK7/Vca6UyAxhemzrKbVnZRBVRJhQdZRvUjHWUNaLoHDDVSTGNskuOs9I4Pj3EezqEF090gRI5ZdQQrGo1ZriLqndA7u5i1vEaKbh3H/+1U98aH+bx/q+a2tmNI0lEzpqpRiHAwBJ6Klp8QLTKtsLxqg0WkO/q5+I2Q7kd2sh4xUeYp/iNzGw/NScK4U2Q4izfmm4fE0QS4v9o83MAx6nZGN4h08kzeqQq5tkeMdFSet/INj5qR8Xm4OqEq1JfM+8XEeEMH0Tg6FyQRuKwJczWXN0cN27eYVbh6pBLTropa/Eyww0nqNlwuZVuCA/lzXHGc7QcaDKYqe8GuAcAdQQR5Xj0Cx2O7bVHNLKVL2ZMjOXSW8yAALwrzttwZ7KBrAy01nB7QBYGCy/R2YeiwlJiw5c/k0mbMOJONlhwzjdalAcc7Rsfejo7w5ytbR41TDQ8PsRNp+m6wrm7JYPFhtQB3uEZXWAgbG2sH4SsjSNt0jaVO3Ia8NjPT3MgH/adfOFRcXq4bKalB4E/wDamdf6Tdo+CAx/D8rj6jqhRh00dcE5SUuUE4HtBXY4TBbYEbkD+rX1VvU4o59Fz8pBc7KJjZp031I+CqKeGRhswzoxtupLgPUzC6S0dF+ipwgMEG28/fijuHU80ZyTvB09F0MY6Y8/y8kTTpZTZFSA0wjKAi8O4hRBsibdUTTag2FIJY5EjRBsepqT4F0rYyRc4P3PNQ1XXTsBU7jh/LB8ioKjpRgCZC4wVBiakW336fqnYipF0HVfdUEBcQ+NVyhU2UGIeo6dWDdGwBtaoo2lRuqghQBxmZsqpiNFiw31TcQ5QjEzEJVXgoijQw80l0eKSATfYnDSSADG/wCyouIYAiTe/wCS2WIa46ZfGLqmxzImVtlEwqRRcN4rl7lUm2jz8nfn681cioNRvuqStgpNhqhRUfQMNM82k2v8ipNUUTNPTqEaI1uIcBdZuhj8w0LTyP3dG0ceN5RjKuTpRsscCSahfdT8Q4gWiBqhcJjWvllE3AkkyANPUoTjVH2dMOzk1H1aVMWsM9VrXW/tLlPL1mLHLtb2Iosc2o5xgCXHldTs4a/8bso6XcfPQfFXmHY1ohjQB9681yqydF42f8UnLUNL7j1QBVoMdSdRcJY5paR47+O68b4lhH0Kr6TveYY8RsfMQV7dk2WD/wAROFF1WlVaLlpa7rluPgSs3SZm5tP2XwSadGEfWU2Vsty7iT0MmR5WXa7Im11ymzRehybmi4w4zsynUe74cvLZDvpwrPA0/dCqqHFW1qj6Z7rw5wbycASPJ3zTq6JOiekYuiC1pYW7nXwBkfFROpERItsVLSXXYVojZhg0wLSZ8/uUWWac9YUTdVK8yOR5oDE9IKYIajIi5IRgbugEaG8lM2N00NTnBBhQbwd8l4/pv/u/dR4ipBKdwkQ2o7mWj0kn5oDF1NfOFSCEmcqVNUK58AnmnsBQ1eZhUZNDKkHVDjmn1n6Qhm1NYQOO1XXsNlC55CnaZXKtFOgArcVf5IiniZCArNgqWnUEJ7EYWavVJC5mpLhT2qrjaQByv/08lWvcx1zJ+StsRgAdAgq+AOggDnuvQowWVlerYgWQDsC2AfMnmfsq9bw8DW6ixrABlCDWhkyo9gJhdrsDWog2Vdi6pM+BSN6GoteyFGGPqH8ToHgP1PwRPaFwdWwbBviMx/0Uaz/mAu8Ow720qbWjQA+tz803FNP+ewzXaNpV6p8f4VMf83L5XLN5M8pfX7J0OuS4AKVKxKifVEwCuwZ6LEtOgBjGt3F1me3keyY4D3XX8C0/orypUgEzKyva6sauHcI073oVowzayIrifmjz3E1w49fBcotMhDseAdpRlB0wvXo9Fsv8CbD5rJdlcPPE6bT/AOU/8lrcG2yz/Z+qKfF87jDWuc4k8g0lUWoS+hnnyjX/AOJeNw+HxNNmUtzAudl91pmxy7TeY5aKowdFri0gyw/iFxCyPbHi7sTiHVDNySAdgfdHoAu9muKuoOkHuuIDm8+vQ9Vyw1BP2FZN0+DYVsOWNEm523jmeUqNj008Vo1YIeReIfAMxz02Ti2El/qV+gRQKLYUFSHkpmPA/EFxwbSN1OWAmyCZimjqoqvETslYyLRpysIHP8lW1SdXEEbckynxCWGRBB+Y/RAPxRkyCeV/uFaHBKfIUHyfNQ13BC18QSBpbcH6KI1D0VKJnKlTZCVnp9Z3qoBdc0cmH4NymrVIEITDypaplLYaA3Akpm0KZ1LeVE4prA0R5SknBy6jYtHupq21UOLxzWiwkpJL0jzymrcSqnQMHqgWYuo6o4PykQDN9zy5W+KSSSXAyI8VjGgqHAsFSo0H3ZzP/tG3yHmupLH1GSUcUmv0KUa5+MB91Zs4nNja2Zx7lGnTBHNznvd8MiSS+fh+Z/t/lBLHA4TK6cxI1urHE4gxOySSzyfsEQbCsc4SbDxUHFqIbTiLQSfT9VxJGK3ZSKPEsc0te4cjbwRfDa3NJJe7+VGtM0uDqyLLIceeG4p56Dz7oSSVsRPIVNV0uufNXvZrhjH13U602YXQDqQRYkdCV1JHI6iDGvIs+P4WmyiwtEPe642jvu//AEFNwxpAY0EkWkHry5JJLNfiL1EmsiSLLimD9m7WQQIQPtYSSTzikXxybWyQYgCyiNX9EklMqcNfUfdrqHMSSkkq4yc+ROfAUHtUklVEmI6E7DU/JDjEctNB9UkkWci1pRAP3uo7LqSmx0RVX2QNZcSRQGQyUkkl1gP/2Q==" class="card-img-top" alt="Peluquería" style="object-fit: cover; height: 200px;">
+            <div class="card-body">
+              <h5 class="card-title"><i class="fas fa-cut me-2" style="color: var(--accent);"></i>Peluquería</h5>
+              <p class="card-text">Estilismo y cuidado estético para tu Caballo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Sección Equipo -->
+  <section id="equipo" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Nuestro Equipo</h2>
+      <div class="row g-4">
+        <!-- Perfil Dra. Ana López -->
+        <div class="col-md-4 text-center">
+          <div class="card border-0">
+            <img src=https://i.pinimg.com/236x/ef/d0/94/efd09480361a7ede8ef71bd97eedb2c5.jpg class="rounded-circle mx-auto" alt="Dr. Alejandro Rivas" style="width: 150px; height: 150px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Dr. Alejandro Rivas</h5>
+              <p class="card-text"><strong>Veterinaria General</strong></p>
+              <p class="card-text">Médico Veterinario General Equino 🏇🔬</p>
+            </div>
+          </div>
+        </div>
+        <!-- Perfil Dr. Carlos Méndez -->
+        <div class="col-md-4 text-center">
+          <div class="card border-0">
+            <img src="https://i.pinimg.com/236x/bf/7f/0c/bf7f0cf68e0b86726d37636dfe0254a8.jpg" class="rounded-circle mx-auto" alt="Dra. Mariana del Valle" style="width: 150px; height: 150px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Dra. Mariana del Valle</h5>
+              <p class="card-text"><strong>Cirujano Veterinario</strong></p>
+              <p class="card-text">Cirujana Veterinaria Equina 🏥🩺</p>
+            </div>
+          </div>
+        </div>
+        <!-- Perfil Dra. Laura Gómez -->
+        <div class="col-md-4 text-center">
+          <div class="card border-0">
+            <img src="https://i.pinimg.com/236x/10/92/99/1092997edcfa953996a4a7f709732e44.jpg" class="rounded-circle mx-auto" alt="Dra. Laura Gómez" style="width: 150px; height: 150px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Dr. Fernando Gutiérrez</h5>
+              <p class="card-text"><strong>Estilista Animal</strong></p>
+              <p class="card-text">Especialista en Peluquería y Estética Equina ✂️🐴.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Sección Contacto -->
+  <section id="contacto" class="py-5" style="background-color: #f8f9fa;">
+    <div class="container">
+      <h2 class="text-center mb-5">Contacto</h2>
+      <div class="row">
+        <!-- Tarjeta de Teléfono y WhatsApp -->
+        <div class="col-md-6 mb-4">
+          <div class="card shadow-sm hover-card">
+            <div class="card-body text-center">
+              <h3><i class="fas fa-phone-alt me-2" style="color: var(--accent);"></i>+01-2345-678901-234</h3>
+              <a href="https://wa.me/012345678901234" class="btn btn-success btn-lg mt-3">
+                <i class="fab fa-whatsapp me-2"></i> WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Formulario de Contacto -->
+        <div class="col-md-6">
+          <form id="contactForm" novalidate class="shadow-sm p-4 bg-white">
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="mensaje" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="mensaje" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100" style="background-color: var(--secondary); border: none;">Enviar Mensaje</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Modal Confirmación -->
+  <div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: var(--secondary); color: #fff;">
+          <h5 class="modal-title" id="confirmationModalLabel">¡Enviado! 🎉</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          Tu mensaje ha sido enviado correctamente. ¡Gracias por contactarnos! 😊
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <footer class="py-4" style="background-color: var(--primary); color: #fff;">
+    <div class="container text-center">
+      <div class="mb-3">
+        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-white me-3"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+      </div>
+      <p>Dirección: Calle Falsa 123, Ciudad, País | Horarios: Lun-Vie 9:00-18:00</p>
+    </div>
+  </footer>
+  
+  <!-- Bootstrap JS Bundle CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
